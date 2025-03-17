@@ -19,8 +19,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.container h1{
-font-size:50px;
+.container h1 {
+  font-size: 50px;
 }
 .btn-header-container {
   width: 300px;
@@ -28,39 +28,75 @@ font-size:50px;
   flex-direction: row;
   justify-content: space-between;
 }
-.btn-header-container button {
-    padding: 10px 20px;
-    border: 2px solid black;
-    border-radius: 50px;
-    color: black;
-    font-weight: bold;
-    cursor: pointer;
+button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
 }
-.are-do-main-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 50px;
+.are-do-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
 }
-.are-do-container{
-    width: 1100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap-reverse;
+.are-do-container {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
 }
-.are-do{
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: justify;
+.are-do {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
 }
-.are-do-image{
-    width: 400px;
-    /* margin-left: 100px; */
+.are-do-image {
+  max-width: 400px;
+  /* margin-left: 100px; */
 }
-.are-do-image img{
-    width: 100%;
+.are-do-image img {
+  width: 100%;
+}
+.charity-foundation-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.charity-foundation-container {
+  padding: 50px;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.charity-foundation-image {
+  max-width: 400px;
+}
+.charity-foundation-image img {
+  width: 100%;
+}
+.charity-foundation-content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.charity-foundation-content p {
+text-align: justify;
+}
+.charity-foundation-content button{
+max-width: 150px;
+}
+.cards-main-container{
+    
 }
